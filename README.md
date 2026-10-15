@@ -16,21 +16,27 @@ How to play:
 Project Structure:
  main.py
 o Entry point of the program.
+
  ColorGame
-o The ColorGame module / package.
-o __init__.py
-o main.py
- Configures the tkinter Window instance.
-o constants.py
- Contains mutable package-scoped variables.
-o state.py
- Contains the game state.
-o handler.py
- Contains functions that make the program interactive.
- Contains the game logic.
-o layout.py
- Creates the necessary widgets for the program.
- Binds “click” event to buttons.
+  o The ColorGame module / package.
+  o __init__.py
+  
+  o main.py
+     Configures the tkinter Window instance.
+  
+  o constants.py
+     Contains mutable package-scoped variables.
+  
+  o state.py
+     Contains the game state.
+  
+  o handler.py
+     Contains functions that make the program interactive.
+     Contains the game logic.
+
+  o layout.py
+     Creates the necessary widgets for the program.
+     Binds “click” event to buttons.
+
 o bindings.py
- Contains event bindings for widgets like KeyPress, Mouse Enter, and
-Mouse Leave.
+   Contains event bindings for widgets like KeyPress, Mouse Enter, and Mouse Leave.
