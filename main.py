@@ -1,0 +1,3 @@
+import ColorGame
+
+ColorGame.start()
