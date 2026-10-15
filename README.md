@@ -13,7 +13,9 @@ How to play:
 9. Press the “CLOSE” button found in the RESULT AREA and repeat from step 3.
 
 
+
 Project Structure:
+
  main.py
 o Entry point of the program.
 
